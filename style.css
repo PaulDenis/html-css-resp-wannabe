@@ -78,6 +78,8 @@ img {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 12px;
+
   }
   .row {
     width: 100vw;
@@ -86,16 +88,28 @@ img {
   }
   #lezioni {
       background-color: #f2f2cd;
-      font-size: 12px;
       padding-bottom: 10px;
   }
   #lezioni .row>.left,
   #lezioni .row>.right {
-    width: 100%;
+    width: 98%;
+    margin: 0 auto;
   }
   img {
     height: 100px;
   }
+
+  .container.grey {
+    background-color: white;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 98%;
+    margin: 0 auto;
+  }
+
 
 
 }
